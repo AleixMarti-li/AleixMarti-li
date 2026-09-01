@@ -1,3 +1,5 @@
+<!--horizontal divider(gradiant)-->
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <div id="user-content-toc">
@@ -53,14 +55,6 @@
 <br>
 
 ## 📊 Estadísticas de GitHub
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=AleixMarti-li&theme=dark&show_icons=true&count_private=true" />
-</p>
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AleixMarti-li&theme=dark&hide_border=false&layout=compact&langs_count=7" />
-</p>
 
 <p align="left">
   <a href="https://git.io/streak-stats">
