@@ -1,0 +1,34 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          user: AleixMarti-li
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          template: classic
+          base: header, activity, community, repositories, metadata
+
+          config_timezone: Europe/Madrid
+          config_display: large
+
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 8
+
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
