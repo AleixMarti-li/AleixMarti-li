@@ -1,5 +1,3 @@
-<!--horizontal divider(gradiant)-->
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <div id="user-content-toc">
@@ -65,7 +63,9 @@
 </p>
 
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AleixMarti-li&theme=dark&hide_border=true" />
+  <a href="https://git.io/streak-stats">
+    <img src="https://github-readme-streak-stats-one.vercel.app?user=AleixMarti-li&theme=highcontrast&locale=es" alt="GitHub Streak" />
+  </a>
 </p>
 
 <br>
