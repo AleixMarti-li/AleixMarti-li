@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Generate GitHub Metrics
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@master
         with:
           user: AleixMarti-li
           token: ${{ secrets.METRICS_TOKEN }}
