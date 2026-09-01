@@ -16,8 +16,9 @@ jobs:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@master
         with:
-          user: AleixMarti-li
           token: ${{ secrets.METRICS_TOKEN }}
+          user: AleixMarti-li
+          filename: github-metrics.svg
 
           template: classic
           base: header, activity, community, repositories, metadata
@@ -29,6 +30,6 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
 
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
